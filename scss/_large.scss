@@ -1,0 +1,56 @@
+header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper{
+        background-color: #123145;
+        background-image: url("../images/header-large.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+/*----------- NAVIGATION --------------*/
+nav {
+        button {display: none;}
+        //end button
+        ul, ul.classOpen{
+                margin-right: auto;
+                display: flex;
+                justify-content: right;
+
+                li a{
+                        border-bottom: none;
+                        width: 10.54rem;
+                }
+        }
+
+}
+
+
+//end nav
+
+
+/*----------- MAIN --------------*/
+main{
+        height: 43rem;
+        min-height: max-content;
+        div.card {
+            flex-basis: 29.879%;
+            background-color: rgba(168, 168, 168, 0.575);
+            margin: 1rem;
+
+        }
+    }
+
+
+
+/*----------- FOOTER --------------*/
+    

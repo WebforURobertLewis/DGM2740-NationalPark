@@ -1,0 +1,35 @@
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper{
+    background-color: #123145;
+    background-image: url("../images/header-medium.jpg"); 
+    height: 240px;
+    background-repeat: no-repeat;
+}
+
+
+/*----------- NAVIGATION --------------*/
+    nav ul li {width: auto; }
+    nav ul li:first-child a {border-left: 1px solid #777;}
+    nav ul li:last-child a {border-right: 1px solid #777;}
+    nav ul li a{padding: .5rem 1rem;}
+    
+
+/*----------- MAIN --------------*/
+main{
+    div.card {
+        flex-basis: 44%;
+        background-color: rgba(168, 168, 168, 0.575);
+        margin: 1rem;
+    }
+}
+
+
+/*----------- FOOTER --------------*/
+    
